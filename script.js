@@ -49,9 +49,11 @@ const products =
         description: "Oversized tote hand-crocheted using recycled cotton. Features soft sage, cream, and forest green stripes. Fully lined with inner pockets.",
         variants: { Color: ["Sage Green", "Earth Brown"], Strap: ["Short", "Long Crossbody"] },
         images: [
-            "https://placehold.co/800x800/56876d/ffffff?text=Tote+Front",
-            "https://placehold.co/800x800/e8ece9/2d3b34?text=Tote+Detail",
-            "https://placehold.co/800x800/739c86/ffffff?text=Tote+Inside"
+            "assets/img/113.jpg",
+            "assets/img/112.jpg",
+            "assets/img/111.jpg",
+            "assets/img/111.jpg",
+            "assets/img/111.jpg"
         ]
     },
     {
@@ -62,8 +64,11 @@ const products =
         description: "The softest chenille yarn bunny in earthy tones. Child-safe eyes and hypoallergenic filling. A perfect nursery companion.",
         variants: { Size: ["Small (8in)", "Medium (12in)"], Bow: ["White", "Sage", "Cream"] },
         images: [
-            "https://placehold.co/800x800/e8ece9/56876d?text=Bunny+Front",
-            "https://placehold.co/800x800/f4f7f5/56876d?text=Bunny+Side"
+            "assets/img/106.jpg",
+            "assets/img/107.jpg",
+            "assets/img/108.jpg",
+            "assets/img/109.jpg",
+            "assets/img/110.jpg"
         ]
     },
     {
@@ -74,7 +79,12 @@ const products =
         description: "Elegant headband with hand-crocheted leaf patterns. Organic cotton lining ensures it stays in place comfortably.",
         variants: { Color: ["Green", "Beige", "White"] },
         images: [
-            "https://placehold.co/800x800/d7ddd9/2d3b34?text=Headband"
+            "assets/img/99.jpg",
+            "assets/img/100.jpg",
+            "assets/img/101.jpg",
+            "assets/img/102.jpg",
+            "assets/img/103.jpg",
+            "assets/img/104.jpg"
         ]
     },
     {
@@ -85,7 +95,10 @@ const products =
         description: "Set of 4 absorbent cotton coasters in leaf shapes. Protects surfaces with style.",
         variants: { Pack: ["Set of 4", "Set of 6"] },
         images: [
-            "https://placehold.co/800x800/f0f7f4/56876d?text=Coasters"
+            "assets/img/95.jpg",
+            "assets/img/96.jpg",
+            "assets/img/97.jpg",
+            "assets/img/98.jpg"
         ]
     },
     {
@@ -96,7 +109,10 @@ const products =
         description: "Expandable market bag perfect for grocery runs. Strong, durable, and eco-friendly.",
         variants: { Color: ["Cream", "Sage Green", "Mustard"] },
         images: [
-            "https://placehold.co/800x800/e8ece9/56876d?text=Market+Bag"
+            "assets/img/91.jpg",
+            "assets/img/92.jpg",
+            "assets/img/93.jpg",
+            "assets/img/94.jpg"
         ]
     },
     {
@@ -107,7 +123,8 @@ const products =
         description: "Adorable tiny frog keychain. Made with micro-chenille for a velvety feel.",
         variants: { Color: ["Green", "Teal", "Olive"] },
         images: [
-            "https://placehold.co/800x800/56876d/ffffff?text=Frog+Key"
+            "assets/img/89.jpg",
+            "assets/img/88.jpg"
         ]
     },
 
@@ -121,7 +138,11 @@ const products =
         description: "Hand-crocheted shoulder bag with earthy wave patterns in beige and olive.",
         variants: { Color: ["Olive", "Rust", "Beige"] },
         images: [
-            "https://placehold.co/800x800/6b7b6e/ffffff?text=Shoulder+Bag"
+            "assets/img/84.jpg",
+            "assets/img/85.jpg",
+            "assets/img/86.jpg",
+            "assets/img/87.jpg",
+            "assets/img/88.jpg"
         ]
     },
     {
@@ -132,7 +153,10 @@ const products =
         description: "Cute turtle plush with soft cotton shell patterns inspired by nature.",
         variants: { Size: ["Small", "Large"] },
         images: [
-            "https://placehold.co/800x800/8ca08b/ffffff?text=Turtle+Plush"
+            "assets/img/80.jpg",
+            "assets/img/81.jpg",
+            "assets/img/82.jpg",
+            "assets/img/83.jpg"
         ]
     },
     {
@@ -143,7 +167,12 @@ const products =
         description: "Minimal bracelet with braided threads and leaf charm.",
         variants: { Color: ["Brown", "Green", "Cream"] },
         images: [
-            "https://placehold.co/800x800/cfd6d1/2d3b34?text=Bracelet"
+            "assets/img/74.jpg",
+            "assets/img/75.jpg",
+            "assets/img/76.jpg",
+            "assets/img/77.jpg",
+            "assets/img/78.jpg",
+            "assets/img/79.jpg"
         ]
     },
     {
@@ -154,7 +183,10 @@ const products =
         description: "Mini tote with forest-tone stripes and sturdy handles.",
         variants: { Color: ["Forest Green", "Cream"] },
         images: [
-            "https://placehold.co/800x800/5f725e/ffffff?text=Mini+Tote"
+            "assets/img/73.jpg", 
+            "assets/img/72.jpg", 
+            "assets/img/63.jpg", 
+            "assets/img/65.jpg"
         ]
     },
     {
@@ -165,7 +197,9 @@ const products =
         description: "Handmade bear plush in pebble and oatmeal tones.",
         variants: { Bow: ["Green", "Brown"] },
         images: [
-            "https://placehold.co/800x800/d8ddd7/2d3b34?text=Bear+Plush"
+            "assets/img/61.jpg",
+            "assets/img/58.jpg",
+            "assets/img/60.jpg"
         ]
     },
     {
@@ -176,7 +210,9 @@ const products =
         description: "Soft crochet scrunchies made with organic yarn.",
         variants: { Pack: ["Set of 2", "Set of 3"] },
         images: [
-            "https://placehold.co/800x800/f4f7f5/2d3b34?text=Scrunchies"
+            "assets/img/55.jpg",
+            "assets/img/56.jpg",
+            "assets/img/57.jpg"
         ]
     },
     {
@@ -187,7 +223,9 @@ const products =
         description: "Sling bag in deep green and cream with a secure flap.",
         variants: { Strap: ["Short", "Long"] },
         images: [
-            "https://placehold.co/800x800/4c6559/ffffff?text=Sling+Bag"
+            "assets/img/51.jpg",
+            "assets/img/52.jpg",
+            "assets/img/54.jpg"
         ]
     },
     {
@@ -198,7 +236,9 @@ const products =
         description: "Soft fox toy crafted with earthy orange chenille.",
         variants: { Size: ["Small", "Medium"] },
         images: [
-            "https://placehold.co/800x800/e3c5a8/2d3b34?text=Fox+Plush"
+            "assets/img/46.jpg",
+            "assets/img/47.jpg",
+            "assets/img/48.jpg"
         ]
     },
     {
@@ -209,7 +249,8 @@ const products =
         description: "Hand-crocheted leaf bookmark for nature lovers.",
         variants: { Color: ["Sage", "Olive", "Brown"] },
         images: [
-            "https://placehold.co/800x800/dce2de/2d3b34?text=Bookmark"
+            "assets/img/44.jpg",
+            "assets/img/45.jpg",
         ]
     },
     {
@@ -220,7 +261,7 @@ const products =
         description: "Striped tote in mustard, cream, and soft green.",
         variants: { Size: ["Small", "Large"] },
         images: [
-            "https://placehold.co/800x800/d7c589/2d3b34?text=Sunlit+Tote"
+            "assets/img/43.jpg"
         ]
     },
     {
@@ -231,7 +272,8 @@ const products =
         description: "Cute dinosaur plush made using super-soft cotton yarn.",
         variants: { Color: ["Olive", "Green"], Size: ["Small", "Large"] },
         images: [
-            "https://placehold.co/800x800/7a8b71/ffffff?text=Dino+Plush"
+            "assets/img/41.jpg",
+            "assets/img/42.jpg"
         ]
     },
     {
@@ -242,7 +284,8 @@ const products =
         description: "Breathable cotton headwrap with reef-style crochet stitches.",
         variants: { Color: ["Cream", "Sage", "Brown"] },
         images: [
-            "https://placehold.co/800x800/e8ece9/2d3b34?text=Headwrap"
+            "assets/img/38.jpg",
+            "assets/img/39.jpg"
         ]
     },
     {
@@ -253,7 +296,9 @@ const products =
         description: "Compact purse with sage floral crochet detailing.",
         variants: { Strap: ["With Strap", "No Strap"] },
         images: [
-            "https://placehold.co/800x800/9cb3a6/ffffff?text=Purse"
+            "assets/img/34.jpg",
+            "assets/img/33.jpg",
+            "assets/img/35.jpg"
         ]
     },
     {
@@ -264,7 +309,9 @@ const products =
         description: "A round, soft panda plush with earthy monochrome yarn.",
         variants: { Size: ["Small", "Large"] },
         images: [
-            "https://placehold.co/800x800/f2f2f2/2d3b34?text=Panda+Plush"
+            "assets/img/30.jpg",
+            "assets/img/31.jpg",
+            "assets/img/32.jpg",
         ]
     },
     {
@@ -275,7 +322,7 @@ const products =
         description: "Crochet bracelets inspired by garden flowers.",
         variants: { Pack: ["Set of 2", "Set of 4"] },
         images: [
-            "https://placehold.co/800x800/f0f5f2/2d3b34?text=Bracelet+Pack"
+            "assets/img/29.jpg",
         ]
     },
     {
@@ -286,7 +333,7 @@ const products =
         description: "Earth-tone crossbody bag with secure magnet closure.",
         variants: { Color: ["Brown", "Green"], Strap: ["Short", "Long"] },
         images: [
-            "https://placehold.co/800x800/7d6853/ffffff?text=Crossbody"
+            "assets/img/28.jpg",
         ]
     },
     {
@@ -297,7 +344,7 @@ const products =
         description: "Mini bear keychain made with warm cocoa yarn.",
         variants: { Color: ["Brown", "Cream"] },
         images: [
-            "https://placehold.co/800x800/d3c8bb/2d3b34?text=Bear+Keychain"
+            "assets/img/27.jpg",
         ]
     },
     {
@@ -308,7 +355,8 @@ const products =
         description: "Crochet flower hair clip in soft garden shades.",
         variants: { Color: ["Yellow", "Pink", "White"] },
         images: [
-            "https://placehold.co/800x800/f5efe7/2d3b34?text=Flower+Clip"
+            "assets/img/25.jpg",
+            "assets/img/26.jpg"
         ]
     },
     {
@@ -319,7 +367,8 @@ const products =
         description: "Premium tote featuring fern-inspired crochet patterns.",
         variants: { Color: ["Green", "Mustard"] },
         images: [
-            "https://placehold.co/800x800/7a8f78/ffffff?text=Fern+Tote"
+            "assets/img/24.jpg",
+            "assets/img/23.jpg",
         ]
     },
     {
@@ -330,7 +379,10 @@ const products =
         description: "Fluffy sheep plush with curly cream yarn.",
         variants: { Size: ["Small", "Large"] },
         images: [
-            "https://placehold.co/800x800/f2eadd/2d3b34?text=Sheep+Plush"
+            "assets/img/17.jpg",
+            "assets/img/18.jpg",
+            "assets/img/19.jpg",
+            "assets/img/20.jpg",
         ]
     },
     {
@@ -341,7 +393,9 @@ const products =
         description: "Handwoven wrist cuff with rustic cotton threads.",
         variants: { Color: ["Rust", "Olive"] },
         images: [
-            "https://placehold.co/800x800/e3d4c7/2d3b34?text=Wrist+Cuff"
+            "assets/img/14.jpg",
+            "assets/img/15.jpg",
+            "assets/img/16.jpg",
         ]
     },
     {
@@ -352,7 +406,8 @@ const products =
         description: "Bucket-style crochet bag with drawstring closure.",
         variants: { Color: ["Olive", "Cream"] },
         images: [
-            "https://placehold.co/800x800/7b8a6d/ffffff?text=Bucket+Bag"
+            "assets/img/13.jpg",
+            "assets/img/12.jpg",
         ]
     },
     {
@@ -363,7 +418,8 @@ const products =
         description: "Small crochet kitty plush in moss and cream tones.",
         variants: { Bow: ["Green", "Brown"] },
         images: [
-            "https://placehold.co/800x800/e8ece9/2d3b34?text=Kitty+Plush"
+            "assets/img/10.jpg",
+            "assets/img/11.jpg",
         ]
     },
     {
@@ -372,9 +428,13 @@ const products =
         price: 549,
         category: "accessory",
         description: "Handmade necklace with vine-pattern crochet beads.",
-        variants: { Color: ["Green", "Cream", "Olive"] },
+        variants: { Color: ["Blue", "Cream", "B/W", "Red"] },
         images: [
-            "https://placehold.co/800x800/d0d9d2/2d3b34?text=Vine+Necklace"
+            "assets/img/9.jpg",
+            "assets/img/8.jpg",
+            "assets/img/7.jpg",
+            "assets/img/6.jpg",
+            
         ]
     }
 
