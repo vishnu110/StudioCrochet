@@ -41,26 +41,28 @@ if (typeof emailjs !== 'undefined' && EMAILJS_PUBLIC_KEY !== 'YOUR_PUBLIC_KEY') 
 // --- PRODUCT DATA (Updated with INR Prices) ---
 const products = 
 [
+
+    
     {
-        id: 1,
-        title: "Forest Haze Tote",
-        price: 2499,
-        category: "bag",
-        description: "Oversized tote hand-crocheted using recycled cotton. Features soft sage, cream, and forest green stripes. Fully lined with inner pockets.",
-        variants: { Color: ["Sage Green", "Earth Brown"], Strap: ["Short", "Long Crossbody"] },
-        images: [
-            "assets/img/113.jpg",
-            "assets/img/112.jpg",
-            "assets/img/111.jpg"
-        ]
+    id: 1,
+    title: "Pastel Crochet Tulip Pot",
+    price: 899,
+    category: "decor",
+    description: "A handcrafted pastel tulip arrangement made with soft premium yarn. Features cream and blush tulips placed in a cute crochet pot decorated with a bow. Perfect for gifting, desk decoration, and adding a cozy aesthetic touch to any space.",
+    variants: { Color: ["Blush Mix"], Size: ["Standard", "Large", "Small"] },
+    images: [
+        "assets/img/113.jpg", 
+        "assets/img/112.jpg",
+        "assets/img/111.jpg"
+    ]
     },
     {
         id: 2,
-        title: "Moss Bunny",
-        price: 999,
-        category: "plushie",
-        description: "The softest chenille yarn bunny in earthy tones. Child-safe eyes and hypoallergenic filling. A perfect nursery companion.",
-        variants: { Size: ["Small (8in)", "Medium (12in)"], Bow: ["White", "Sage", "Cream"] },
+        title: "Soft Peach Crochet Earbud Case Cover",
+        price: 299,
+        category: "accessories",
+        description: "Hand-crocheted soft peach earbud case cover designed to protect your earbuds while adding a cozy, aesthetic look. Made with premium yarn for a snug fit and extra cushioning. Perfect for daily use and gifting.",
+        variants: { Color: ["Peach"], Size: ["Standard Earbud Case"] },
         images: [
             "assets/img/106.jpg",
             "assets/img/107.jpg",
@@ -71,11 +73,11 @@ const products =
     },
     {
         id: 3,
-        title: "Leaf Pattern Band",
-        price: 699,
-        category: "accessory",
-        description: "Elegant headband with hand-crocheted leaf patterns. Organic cotton lining ensures it stays in place comfortably.",
-        variants: { Color: ["Green", "Beige", "White"] },
+        title: "Berry Weave Handcrafted Basket",
+        price: 449,
+        category: "home-decor",
+        description: "Crafted with durable cord for long-lasting use. Perfect for gifting, décor, or organizing small essentials.",
+        variants: { Color: ["Berry Purple", "Black"]},
         images: [
             "assets/img/99.jpg",
             "assets/img/100.jpg",
@@ -86,12 +88,12 @@ const products =
         ]
     },
     {
-        id: 4,
-        title: "Nature Coaster Set",
-        price: 599,
-        category: "accessory",
-        description: "Set of 4 absorbent cotton coasters in leaf shapes. Protects surfaces with style.",
-        variants: { Pack: ["Set of 4", "Set of 6"] },
+            id: 4,
+            title: "Crochet Sunflower Pot",
+            price: 499,
+            category: "decor",
+            description: "Handmade sunflower in a soft crochet pot. Bright, cute, and perfect for desk décor.",
+            variants: { FlowerColor: ["Yellow","Orange"], PotColor: ["Cream"]},
         images: [
             "assets/img/95.jpg",
             "assets/img/96.jpg",
@@ -101,12 +103,12 @@ const products =
     },
     {
         id: 5,
-        title: "Eco Market Net",
-        price: 1499,
-        category: "bag",
-        description: "Expandable market bag perfect for grocery runs. Strong, durable, and eco-friendly.",
-        variants: { Color: ["Cream", "Sage Green", "Mustard"] },
-        images: [
+        title: "Crochet Sunflower Stems",
+        price: 349,
+        category: "decor",
+        description: "Handmade sunflower stems with bright petals and sturdy detailing. Perfect for vases and gifting.",
+        variants: { Pack: ["Single Stem", "Pack of 2"] },
+            images: [
             "assets/img/91.jpg",
             "assets/img/92.jpg",
             "assets/img/93.jpg",
@@ -115,14 +117,13 @@ const products =
     },
     {
         id: 6,
-        title: "Mini Frog Keychain",
-        price: 449,
-        category: "plushie",
-        description: "Adorable tiny frog keychain. Made with micro-chenille for a velvety feel.",
-        variants: { Color: ["Green", "Teal", "Olive"] },
+        title: "Two-Tone Crochet Pot Cover",
+        price: 299,
+        category: "decor",
+        description: "Handmade two-tone pot cover that gives a clean, cozy look to your plants.",
+        variants: { Color: ["Sky Blue + Navy"] },
         images: [
-            "assets/img/89.jpg",
-            "assets/img/88.jpg"
+            "assets/img/89.jpg"
         ]
     },
 
@@ -130,11 +131,11 @@ const products =
 
     {
         id: 7,
-        title: "Earthbound Shoulder Bag",
-        price: 1899,
-        category: "bag",
-        description: "Hand-crocheted shoulder bag with earthy wave patterns in beige and olive.",
-        variants: { Color: ["Olive", "Rust", "Beige"] },
+        title: "Crochet Bow Keychain",
+        price: 149,
+        category: "accessory",
+        description: "Cute handmade bow keychains that add a soft, aesthetic touch to your keys or bags.",
+        variants: { Color: ["White", "Red", "Pink"] },
         images: [
             "assets/img/84.jpg",
             "assets/img/85.jpg",
@@ -145,11 +146,11 @@ const products =
     },
     {
         id: 8,
-        title: "Sage Turtle Plush",
-        price: 799,
-        category: "plushie",
-        description: "Cute turtle plush with soft cotton shell patterns inspired by nature.",
-        variants: { Size: ["Small", "Large"] },
+        title: "Lavender Heart Crochet Pouch",
+        price: 349,
+        category: "accessory",
+        description: "Soft handmade pouch with a pearl button and a tiny heart patch. Cute and compact.",
+        variants: { Color: ["Lavender","Pink Heart"] },
         images: [
             "assets/img/80.jpg",
             "assets/img/81.jpg",
@@ -159,11 +160,11 @@ const products =
     },
     {
         id: 9,
-        title: "Braided Leaf Bracelet",
-        price: 399,
+        title: "Peach Crochet Bottle Sleeve",
+        price: 299,
         category: "accessory",
-        description: "Minimal bracelet with braided threads and leaf charm.",
-        variants: { Color: ["Brown", "Green", "Cream"] },
+        description: "Handmade bottle sleeve with a secure anchor-style button. Soft, durable, and easy to carry.",
+        variants: { Color: ["Peach"] },
         images: [
             "assets/img/74.jpg",
             "assets/img/75.jpg",
@@ -175,11 +176,11 @@ const products =
     },
     {
         id: 10,
-        title: "Grassland Tote Mini",
-        price: 999,
-        category: "bag",
-        description: "Mini tote with forest-tone stripes and sturdy handles.",
-        variants: { Color: ["Forest Green", "Cream"] },
+        title: "Crochet Book Sleeve",
+        price: 399,
+        category: "accessory",
+        description: "Soft handmade book sleeve with secure magnetic closure. Protects books stylishly.",
+        variants: { Color: ["Lavender", "Pastel Beige"] },
         images: [
             "assets/img/73.jpg", 
             "assets/img/72.jpg", 
@@ -189,11 +190,11 @@ const products =
     },
     {
         id: 11,
-        title: "Pebble Bear Plush",
-        price: 1099,
-        category: "plushie",
-        description: "Handmade bear plush in pebble and oatmeal tones.",
-        variants: { Bow: ["Green", "Brown"] },
+        title: "Blue Crochet Flower Keychain",
+        price: 149,
+        category: "accessory",
+        description: "Cute handmade flower keychain with soft yarn petals and a bright yellow center.",
+        variants: { Size: ["Small", "Large"] },
         images: [
             "assets/img/61.jpg",
             "assets/img/58.jpg",
@@ -202,11 +203,11 @@ const products =
     },
     {
         id: 12,
-        title: "Crochet Hair Scrunch Set",
-        price: 299,
+        title: "Brown Crochet Zipper Pouch",
+        price: 349,
         category: "accessory",
-        description: "Soft crochet scrunchies made with organic yarn.",
-        variants: { Pack: ["Set of 2", "Set of 3"] },
+        description: "Handmade textured pouch with a smooth zipper. Perfect for essentials.",
+        variants: { Color: ["Brown"] },
         images: [
             "assets/img/55.jpg",
             "assets/img/56.jpg",
@@ -215,11 +216,11 @@ const products =
     },
     {
         id: 13,
-        title: "Evergreen Sling Bag",
-        price: 1799,
-        category: "bag",
-        description: "Sling bag in deep green and cream with a secure flap.",
-        variants: { Strap: ["Short", "Long"] },
+        title: "Floral Crochet Mini Pouch",
+        price: 349,
+        category: "accessory",
+        description: "Colorful handmade mini pouch with cute crochet flowers.",
+        variants: { Colors: ["Pastel Mix"] },
         images: [
             "assets/img/51.jpg",
             "assets/img/52.jpg",
@@ -228,11 +229,11 @@ const products =
     },
     {
         id: 14,
-        title: "Woodland Fox Plushie",
-        price: 899,
-        category: "plushie",
-        description: "Soft fox toy crafted with earthy orange chenille.",
-        variants: { Size: ["Small", "Medium"] },
+        title: "Blue Crochet Rose Bouquet",
+        price: 399,
+        category: "decor",
+        description: "Handmade blue rose bouquet crafted with soft yarn. Cute for gifting and décor.",
+        variants: { Pack: ["Single Stem", "Bouquet"] },
         images: [
             "assets/img/46.jpg",
             "assets/img/47.jpg",
@@ -241,11 +242,11 @@ const products =
     },
     {
         id: 15,
-        title: "Forest Leaf Bookmark",
-        price: 199,
-        category: "accessory",
-        description: "Hand-crocheted leaf bookmark for nature lovers.",
-        variants: { Color: ["Sage", "Olive", "Brown"] },
+        title: "Crochet Striped Sleeveless Top",
+        price: 799,
+        category: "wearables",
+        description: "Handmade sleeveless top with soft blue yarn and cream stripes.",
+        variants: { Size: ["S", "M", "L"], Color: ["Blue & Cream"] },
         images: [
             "assets/img/44.jpg",
             "assets/img/45.jpg",
@@ -253,22 +254,22 @@ const products =
     },
     {
         id: 16,
-        title: "Sunlit Tote Bag",
-        price: 1599,
-        category: "bag",
-        description: "Striped tote in mustard, cream, and soft green.",
-        variants: { Size: ["Small", "Large"] },
+        title: "Evil Eye Crochet Keychain",
+        price: 129,
+        category: "accessory",
+        description: "Handmade round crochet keychain in layered blue tones.",
+        variants: { Color: ["Blue Mix"] },
         images: [
             "assets/img/43.jpg"
         ]
     },
     {
         id: 17,
-        title: "Olive Dino Plush",
-        price: 1299,
-        category: "plushie",
-        description: "Cute dinosaur plush made using super-soft cotton yarn.",
-        variants: { Color: ["Olive", "Green"], Size: ["Small", "Large"] },
+        title: "Two-Tone Crochet Sling Bag",
+        price: 699,
+        category: "bag",
+        description: "Handmade sling bag in soft pink and brown tones. Lightweight and roomy.",
+        variants: { Color: ["Pink + Brown"] },
         images: [
             "assets/img/41.jpg",
             "assets/img/42.jpg"
@@ -276,11 +277,11 @@ const products =
     },
     {
         id: 18,
-        title: "Reef Pattern Headwrap",
-        price: 499,
-        category: "accessory",
-        description: "Breathable cotton headwrap with reef-style crochet stitches.",
-        variants: { Color: ["Cream", "Sage", "Brown"] },
+        title: "Striped Crochet Beanie",
+        price: 349,
+        category: "wearables",
+        description: "Soft handmade beanie with blue and white stripes and a cute pom-pom.",
+        variants: { Color: ["Blue & White"], Size: ["Free Size"] },
         images: [
             "assets/img/38.jpg",
             "assets/img/39.jpg"
@@ -288,11 +289,11 @@ const products =
     },
     {
         id: 19,
-        title: "Sage Bloom Purse",
-        price: 899,
-        category: "bag",
-        description: "Compact purse with sage floral crochet detailing.",
-        variants: { Strap: ["With Strap", "No Strap"] },
+        title: "Blue Evil Eye Crochet Keychain",
+        price: 129,
+        category: "accessory",
+        description: "Handmade evil-eye style crochet keychain in blue and white tones.",
+        variants: { Color: ["Blue Mix"] },
         images: [
             "assets/img/34.jpg",
             "assets/img/33.jpg",
@@ -301,11 +302,11 @@ const products =
     },
     {
         id: 20,
-        title: "Chubby Panda Plush",
-        price: 1199,
-        category: "plushie",
-        description: "A round, soft panda plush with earthy monochrome yarn.",
-        variants: { Size: ["Small", "Large"] },
+        title: "Striped Crochet Bookmark",
+        price: 99,
+        category: "accessory",
+        description: "Handmade striped crochet bookmark in soft blue and white tones.",
+        variants: { Color: ["Blue Mix"] },
         images: [
             "assets/img/30.jpg",
             "assets/img/31.jpg",
@@ -314,44 +315,44 @@ const products =
     },
     {
         id: 21,
-        title: "Garden Bracelet Pack",
-        price: 349,
+        title: "Blue Flower Keychain Duo",
+        price: 149,
         category: "accessory",
-        description: "Crochet bracelets inspired by garden flowers.",
-        variants: { Pack: ["Set of 2", "Set of 4"] },
+        description: "Handmade blue crochet flower keychains with bright yellow centers.",
+        variants: { Pack: ["Single", "Set of 2"] },
         images: [
             "assets/img/29.jpg",
         ]
     },
     {
         id: 22,
-        title: "Rooted Crossbody Bag",
-        price: 1799,
-        category: "bag",
-        description: "Earth-tone crossbody bag with secure magnet closure.",
-        variants: { Color: ["Brown", "Green"], Strap: ["Short", "Long"] },
+        title: "Round Crochet Plant Mat",
+        price: 199,
+        category: "decor",
+        description: "Handmade round crochet mat perfect for plant pots and table décor.",
+        variants: { Colors: ["Green Mix", "Red-Green Mix"] },
         images: [
             "assets/img/28.jpg",
         ]
     },
     {
         id: 23,
-        title: "Cocoa Bear Keychain",
-        price: 399,
-        category: "plushie",
-        description: "Mini bear keychain made with warm cocoa yarn.",
-        variants: { Color: ["Brown", "Cream"] },
+        title: "Cream Crochet Mesh Bag",
+        price: 499,
+        category: "bag",
+        description: "Lightweight handmade mesh bag with a soft cream finish.",
+        variants: { Color: ["Cream"] },
         images: [
             "assets/img/27.jpg",
         ]
     },
     {
         id: 24,
-        title: "Meadow Flower Clip",
-        price: 249,
+        title: "Cream Crochet Pouch",
+        price: 299,
         category: "accessory",
-        description: "Crochet flower hair clip in soft garden shades.",
-        variants: { Color: ["Yellow", "Pink", "White"] },
+        description: "Handmade cream pouch with a classic anchor-style button.",
+        variants: { Color: ["Cream"] },
         images: [
             "assets/img/25.jpg",
             "assets/img/26.jpg"
@@ -359,11 +360,11 @@ const products =
     },
     {
         id: 25,
-        title: "Wild Fern Tote",
-        price: 2199,
-        category: "bag",
-        description: "Premium tote featuring fern-inspired crochet patterns.",
-        variants: { Color: ["Green", "Mustard"] },
+        title: "Crochet Scrunchie",
+        price: 79,
+        category: "accessory",
+        description: "Soft handmade crochet scrunchies in pastel and blue shades.",
+        variants: { Color: ["Blue-White", "Beige-White"] },
         images: [
             "assets/img/24.jpg",
             "assets/img/23.jpg",
@@ -371,11 +372,11 @@ const products =
     },
     {
         id: 26,
-        title: "Snuggly Sheep Plush",
-        price: 1399,
-        category: "plushie",
-        description: "Fluffy sheep plush with curly cream yarn.",
-        variants: { Size: ["Small", "Large"] },
+        title: "Crochet Tail Bookmark",
+        price: 79,
+        category: "accessory",
+        description: "Slim handmade bookmark with a braided tail finish.",
+        variants: { Color: ["Aqua", "White"] },
         images: [
             "assets/img/17.jpg",
             "assets/img/18.jpg",
@@ -385,11 +386,11 @@ const products =
     },
     {
         id: 27,
-        title: "Rustic Wrist Cuff",
-        price: 329,
+        title: "Black Crochet Money Pouch",
+        price: 249,
         category: "accessory",
-        description: "Handwoven wrist cuff with rustic cotton threads.",
-        variants: { Color: ["Rust", "Olive"] },
+        description: "Handmade black pouch perfect for cash and small essentials.",
+        variants: { Color: ["Black"] },
         images: [
             "assets/img/14.jpg",
             "assets/img/15.jpg",
@@ -398,11 +399,11 @@ const products =
     },
     {
         id: 28,
-        title: "Olive Grove Bucket Bag",
-        price: 1999,
-        category: "bag",
-        description: "Bucket-style crochet bag with drawstring closure.",
-        variants: { Color: ["Olive", "Cream"] },
+        title: "Mini Crochet Flower Charm",
+        price: 99,
+        category: "accessory",
+        description: "Cute mini flower charm with soft pastel petals.",
+        variants: { Color: ["Mint-Peach", "Blue-White"] },
         images: [
             "assets/img/13.jpg",
             "assets/img/12.jpg",
@@ -410,11 +411,11 @@ const products =
     },
     {
         id: 29,
-        title: "Forest Kitty Plush",
-        price: 899,
-        category: "plushie",
-        description: "Small crochet kitty plush in moss and cream tones.",
-        variants: { Bow: ["Green", "Brown"] },
+        title: "Black & White Crochet Beanie",
+        price: 349,
+        category: "wearables",
+        description: "Handmade two-tone beanie in classic black and white.",
+        variants: { Color: ["Black & White"]},
         images: [
             "assets/img/10.jpg",
             "assets/img/11.jpg",
@@ -422,10 +423,10 @@ const products =
     },
     {
         id: 30,
-        title: "Lush Vine Necklace",
+        title: "Blue Crochet Flower Handbag",
         price: 549,
-        category: "accessory",
-        description: "Handmade necklace with vine-pattern crochet beads.",
+        category: "bag",
+        description: "Handmade blue handbag with a cute white crochet flower.",
         variants: { Color: ["Blue", "Cream", "B/W", "Red"] },
         images: [
             "assets/img/9.jpg",
@@ -1399,4 +1400,3 @@ window.toggleModalWrap = toggleModalWrap;
 
 // --- RUN ---
 init();
-
