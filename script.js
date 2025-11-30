@@ -51,8 +51,6 @@ const products =
         images: [
             "assets/img/113.jpg",
             "assets/img/112.jpg",
-            "assets/img/111.jpg",
-            "assets/img/111.jpg",
             "assets/img/111.jpg"
         ]
     },
@@ -1401,3 +1399,4 @@ window.toggleModalWrap = toggleModalWrap;
 
 // --- RUN ---
 init();
+
